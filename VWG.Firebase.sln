@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VWG.Firebase", "VWG.Firebas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VWG.Firebase.WebAuthTest", "VWG.Firebase.WebAuthTest\VWG.Firebase.WebAuthTest.csproj", "{CBDA6BD8-7072-4F1F-A445-1FDBE4A32A6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VWG.Firebase.WebPushTest", "VWG.Firebase.WebPushTest\VWG.Firebase.WebPushTest.csproj", "{24339457-1D6A-43A8-B571-41E4A6F7C026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CBDA6BD8-7072-4F1F-A445-1FDBE4A32A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBDA6BD8-7072-4F1F-A445-1FDBE4A32A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBDA6BD8-7072-4F1F-A445-1FDBE4A32A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24339457-1D6A-43A8-B571-41E4A6F7C026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24339457-1D6A-43A8-B571-41E4A6F7C026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24339457-1D6A-43A8-B571-41E4A6F7C026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24339457-1D6A-43A8-B571-41E4A6F7C026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

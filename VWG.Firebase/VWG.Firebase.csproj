@@ -67,6 +67,15 @@
     <Compile Include="AuthenticationSkin.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Notification.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Notification.designer.cs">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
@@ -78,6 +87,28 @@
     <Content Include="AuthenticationSkin.WebAuth.js">
       <DependentUpon>AuthenticationSkin.cs</DependentUpon>
     </Content>
+    <Content Include="Notification.bmp" />
+    <Content Include="NotificationSkin.config.js">
+      <DependentUpon>NotificationSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NotificationSkin.demo.js">
+      <DependentUpon>NotificationSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NotificationSkin.icon-192x192.png">
+      <DependentUpon>NotificationSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NotificationSkin.index.html">
+      <DependentUpon>NotificationSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NotificationSkin.main.js">
+      <DependentUpon>NotificationSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NotificationSkin.manifest.txt">
+      <DependentUpon>NotificationSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NotificationSkin.service-worker.js">
+      <DependentUpon>NotificationSkin.cs</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -86,6 +117,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AuthenticationSkin.resx">
       <DependentUpon>AuthenticationSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotificationSkin.resx">
+      <DependentUpon>NotificationSkin.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
